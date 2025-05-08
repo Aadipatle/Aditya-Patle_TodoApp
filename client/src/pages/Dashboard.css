@@ -1,0 +1,157 @@
+.dashboard-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .input-search,
+  .input-select,
+  .input-date {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .input-task-name,
+  .input-task-description {
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .input-task-description {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .btn-submit {
+    width: max-content;
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: rgba(137, 43, 226, 0.856);
+  }
+  
+  .task-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 1px 1px rgb(241, 237, 237);
+    transition: .3s linear;
+  }
+  .task-card:hover{
+    box-shadow: 3px 3px 3px 1px rgb(210, 208, 208);
+  }
+  .task-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .task-description {
+    margin: 0.5rem 0;
+  }
+  
+  .task-status {
+    color: #555;
+  }
+  
+  .task-date {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .task-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-status-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-status-toggle:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-status-text {
+    background-color: #ccc;
+    color: black;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .pagination button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
