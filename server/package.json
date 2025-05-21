@@ -1,4 +1,11 @@
 {
+  "name": "Todo-App",
+  "version": "1.0.0",
+  "description": "A simple Todo-App Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
